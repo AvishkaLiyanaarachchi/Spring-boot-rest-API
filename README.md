@@ -2,13 +2,13 @@
 
 - ### Prerequisite
 
- 1. Wamp/xampp server
- 2. IDE(IntellijIDEA/Eclipse)
+ 1. wamp/xampp server
+ 2. IDE(intellij idea/eclipse)
  3. Soup UI/ Postman
  
  - ### Steps
  
- 1. Start Wamp/xampp server
+ 1. Start wamp/xampp server
  2. Import coffee_shop_db.sql to phpMyAdmin
  3. Open coffee shop system in the IDE
  4. Go to src/main/resources/application.properties and change or reuse the server.port
@@ -87,6 +87,12 @@
 1. Run XAMP/WAMP
 2. Run the SpringBoot project
 3. Go to browser and type (http://localhost:8081/swagger-ui/#) 
+
+<img src="Images/Swagger.PNG">
+
+<img src="Images/SwaggerResult.png">
+
+# Note :  [More endpoint result images](Endpoint%20documentation.docx)
 
 
 
