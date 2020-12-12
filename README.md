@@ -64,3 +64,10 @@
 4. /employee - Update employee from database - (PUT)
 5. /employee/ID - Delete employees by ID - (DELETE)
 
+- Order
+1. /order - Fetch all order details from database - (GET)
+2. /order/ID - Fetch order details by ID - (GET)
+3. /order - Insert order details to the database - (POST)
+4. /order - Update order details from database - (PUT)
+5. /order/ID - Delete order details by ID - (DELETE)
+
