@@ -88,6 +88,10 @@
 2. Run the SpringBoot project
 3. Go to browser and type (http://localhost:8081/swagger-ui/#) 
 
+<img src="Images/Swagger.PNG">
+
+<img src="Images/SwaggerResult.png">
+
 
 
 
