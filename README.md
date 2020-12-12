@@ -78,3 +78,5 @@
 4. /payment - Update payment details from database - (PUT)
 5. /payment/ID - Delete payment details by ID - (DELETE)
 
+<img src="Images/RequestImage.png">
+
