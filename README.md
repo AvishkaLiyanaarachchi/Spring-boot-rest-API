@@ -92,6 +92,8 @@
 
 <img src="Images/SwaggerResult.png">
 
+# Note :  [More endpoint result images](Endpoint%20documentation.docx)
+
 
 
 
