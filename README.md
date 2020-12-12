@@ -35,3 +35,17 @@
 3. /coffeeitems - Insert coffee items to the database - (POST)
 4. /coffeeitems - Update coffee items from database - (PUT)
 5. /coffeeitems/ID - Delete coffee items by ID - (DELETE)
+
+- Coffee Types
+1. /coffeeTypes - Fetch all coffee types from database - (GET)
+2. /coffeeTypes/ID - Fetch coffee types by ID - (GET)
+3. /coffeeTypes - Insert coffee types to the database - (POST)
+5. /coffeeTypes - Update coffee types from database - (PUT)
+6. /coffeeTypes/ID - Delete coffee types by ID - (DELETE)
+
+- Coffee shop
+1. /coffeeshop - fetch all coffee shop details from database - (GET)
+2. /coffeeshop/ID - Fetch coffee shop details by ID - (GET)
+3. /coffeeshop - Insert coffee shop details to the database - (POST)
+4. /coffeeshop - Update coffee shop details from database - (PUT)
+5. /coffeeshop/ID - Delete coffee shop details by ID - (DELETE)
