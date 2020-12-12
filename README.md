@@ -71,3 +71,10 @@
 4. /order - Update order details from database - (PUT)
 5. /order/ID - Delete order details by ID - (DELETE)
 
+- Payment
+1. /payment - Fetch all payment details from database - (GET)
+2. /payment/ID - Fetch payment details by ID - (GET)
+3. /payment - Insert payment details to the database - (POST)
+4. /payment - Update payment details from database - (PUT)
+5. /payment/ID - Delete payment details by ID - (DELETE)
+
