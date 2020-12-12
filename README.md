@@ -49,3 +49,11 @@
 3. /coffeeshop - Insert coffee shop details to the database - (POST)
 4. /coffeeshop - Update coffee shop details from database - (PUT)
 5. /coffeeshop/ID - Delete coffee shop details by ID - (DELETE)
+
+- Customer
+1. /customer - fetch all customers from database - (GET)
+2. /customer/ID - Fetch customers by ID - (GET)
+3. /customer - Insert customers to the database - (POST)
+4. /customer - Update customers from database - (PUT)
+5. /customer/ID - Delete customers by ID - (DELETE)
+
