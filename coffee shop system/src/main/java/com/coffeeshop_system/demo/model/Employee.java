@@ -5,10 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "tbl_employee")
+@Entity(name = "tbl_employee") //Specify the class is an entity and map to the database table
 public class Employee {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id //specify the primary key of an entity
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //Auto incremented database column to generate the primary key
     private int employee_ID;
     private String employee_name;
     private String email_address;

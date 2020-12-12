@@ -5,10 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "tbl_bakery_types") //Specify the class is an entity and map
+@Entity(name = "tbl_bakery_types") //Specify the class is an entity and map to the database table
 public class BakeryTypes {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id //specify the primary key of an entity
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //Auto incremented database column to generate the primary key
     private int bakery_ID;
     private String 	bakery_types;
     private int tbl_order_order_id;

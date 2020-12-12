@@ -9,8 +9,8 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-@SpringBootApplication
-@Configuration
+@SpringBootApplication //enables Spring Boot autoconfiguration and component scanning
+@Configuration //indicates that a class is a configuration class that may contain bean definitions
 public class DemoApplication {
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("Hello");
     }
-    @Bean
+    @Bean //indicates that a method produces a bean to be managed by Spring
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
