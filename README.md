@@ -57,3 +57,10 @@
 4. /customer - Update customers from database - (PUT)
 5. /customer/ID - Delete customers by ID - (DELETE)
 
+- Employee
+1. /employee - Fetch all employee from database - (GET)
+2. /employee/ID - Fetch employees by ID - (GET)
+3. /employee - Insert employee to the database - (POST)
+4. /employee - Update employee from database - (PUT)
+5. /employee/ID - Delete employees by ID - (DELETE)
+
